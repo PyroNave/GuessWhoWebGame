@@ -40,8 +40,8 @@
   }
 
   40% {
-    color: white;
-    text-shadow: 0 0 7px white, 0 0 50px white;
+    color: #506c84;
+    text-shadow: 0 0 7px #506c84, 0 0 50px #506c84;
   }
 
   60% {
@@ -104,7 +104,7 @@ ul.pre-loader li:nth-child(10) {
 
 body {
 background-color: rgb(26, 26, 26);
-  color: white;
+  color: #506c84;
 }
 
 #header{
@@ -135,7 +135,7 @@ img {
 }
 
 #me img {
-  border: 5px solid grey;
+  border: 5px solid #506c84;
   width: 250px;
   height: 250px;
   object-fit: contain;
@@ -145,9 +145,9 @@ img {
 .tracker {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: #506c84;
   letter-spacing: 10px;
-  text-shadow: 5px 5px 10px #5c3232;
+  text-shadow: 5px 5px 10px #506271;
 }
 
 #name {
@@ -172,12 +172,12 @@ button {
   font-size: 25px;
   border-radius: 10px;
   color: white;
-  background-color: #5c3232;
+  background-color: #506c84;
   margin-top: 10px;
   letter-spacing: 5px;
   transition: .5s;
   border: none;
-  box-shadow: 1px 1px 10px #5c3232;
+  box-shadow: 1px 1px 10px #506c84;
 }
 
 button:focus {
@@ -200,7 +200,7 @@ button:hover {
   background-size: cover;
   width: 200px;
   height: 200px;
-  border: 1px solid grey;
+  border: 1px solid #506c84;
 }
 
 .card img {
@@ -226,7 +226,7 @@ button:hover {
 #roomCode {
   margin-top: 20px;
   text-align: center;
-  color: #333;
+  color: #506c84;
 }
 
 #roomCode h4 {
@@ -270,7 +270,7 @@ footer{
 
 .card-name {
   font-size: 14px;
-  color: white;
+  color: #506c84;
   margin-top: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }

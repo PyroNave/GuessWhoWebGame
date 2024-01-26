@@ -24,14 +24,29 @@ $(window).on('load', function () {
 
 
 var allPics = [
-                "student1.jpg", "student2.jpg", "student3.jpg", "student4.jpg", "student5.jpg", "student6.jpg", "student7.jpg", "student8.jpg", "student9.jpg", "student10.jpg", 
-                "student11.jpg", "student12.jpg", "student13.jpg", "student14.jpg", "student15.jpg", "student16.jpg", "student17.jpg", "student18.jpg", "student19.jpg", 
-                "student20.jpg", "student21.jpg", "student22.jpg", "student23.jpg", "student24.jpg", "student25.jpg", "student26.jpg", "student27.jpg", "student28.jpg", "student29.jpg", 
-                "student30.jpg", "student31.jpg", "student32.jpg", "student33.jpg", "student34.jpg", "student35.jpg", "student36.jpg", "student37.jpg", "student38.jpg", "student39.jpg",
-                "student40.jpg", "student41.jpg", "student42.jpg", "student43.jpg", "student44.jpg", "student45.jpg", "student46.jpg", "student47.jpg", "student48.jpg", "student49.jpg", 
-                "student50.jpg", "student51.jpg", "student52.jpg", "student53.jpg", "student54.jpg", "student55.jpg", "student56.jpg", "student57.jpg", "student58.jpg", "student59.jpg",
-                "student60.jpg"
-              ];
+  "Adam Botha.jpg", "Adolph Janse van Rensburg.jpg", "Adriaan Johannes du Toit", "Aidan Akdogan.jpg", "Akshay Lalla.jpg",
+  "Albert Kleynhans.jpg", "Albert Matthee.jpg", "Alexander Warrington.jpg", "Andrikus Huisamen.jpg",
+  "Ayabonga Hlumkeza.jpg", "Benediction Bahumile.jpg", "Benjamin Shirley.jpg", "Bomi Khawula.jpg",
+  "Bradley Tristan du Toit.jpg", "Bulelani Mazibuko.jpg", "Byron Frans.jpg", "Caleb Marais.jpg",
+  "Cameron Burchell.jpg", "Cameron van Coller.jpg", "Charl De Beer.jpg", "Christopher Cocks.jpg", "Corné Prinsloo.jpg",
+  "Daniel Kok.jpg", "Deomarco Rhode.jpg", "Dirk Bester.jpg", "Ebube Onyeme.jpg",
+  "Eduard Albertyn.jpg", "Emile Hendricks.jpg", "Ewan Bouwer.jpg", "FJ Bezuidenhout.jpg",
+  "Fanny Maahlo.jpg", "Finlay Davison.jpg", "Francois van Niekerk.jpg", "Gabriel Brocker-Corns.jpg", "Hamilton Slater.jpg",
+  "Hendrik Pelser.jpg", "Herman Augustyn.jpg", "Jack Noussis.jpg", "Jacques Adriaan van Zyl.jpg",
+  "James Erasmus.jpg", "James Robert Wiggill.jpg", "JD le Roux", "Jean Blignaut.jpg", "JW Visagie.jpg",
+  "Jaco Steyn.jpg", "Johannes Christiaan Portwig.jpg", "John-Matt Le Roux.jpg", "Josh Beckley.jpg",
+  "Joubert du Toit.jpg", "Khanya Hlabahlaba.jpg", "Kristian Matthew Mongie.jpg", "Leigh-Hagen Cornelissen.jpg",
+  "Louis van Heerden.jpg", "Lucas Marthinus Kruger.jpg", "Lucian Booysen.jpg",
+  "Luke Blaire van Wyngaard.jpg", "Luke Swartz.jpg", "Luveni Mahelu.jpg", "Marchand Nel.jpg",
+  "Matthew Duk.jpg", "Matthew Halbert.jpg", "Matthew James Vos.jpg", "Matthew Peter Van Rooyen.jpg", "Mduduzi Sihlangu.jpg",
+  "Michael Neuper.jpg", "Michael James Solecki.jpg", "Michael Mulcahy.jpg", "Michael Newton.jpg",
+  "Michael Shepstone.jpg", "Ngoni Zvenyika.jpg", "Neelsie Van Dyk.jpg",
+  "Ntsika Vellem.jpg", "Onako Mqeni.jpg", "Pieter Roux.jpg", "Prim Du Preez.jpg",
+  "Rahul Daya.jpg", "Righardt Pretorius.jpg", "Ross Jacobs.jpg", "Ryan Bennett.jpg",
+  "Sauvan Sewsunker.jpg", "Tshepang Semenya.jpg", "Tokelo Motloli.jpg",
+  "Wafiq Madatt.jpg", "Wuhan Mare.jpg", "Willem Visagie.jpg", "Wilry Williams.jpg"
+];
+
 
 
 var selectedPics = [];
@@ -77,7 +92,7 @@ function displayRandomPhotos() {
   }
 
 
-  selectedPics = allPicsCopy.slice(0, 25);
+  selectedPics = allPicsCopy.slice(0, 90);
 
   for (var i = 0; i < selectedPics.length; i++) {
 
