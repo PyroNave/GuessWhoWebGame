@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-/* Loading screen */
 .loader {
   background-color: black;
   position: fixed;
@@ -102,7 +101,6 @@ ul.pre-loader li:nth-child(10) {
   animation-delay: 1.8s;
 }
 
-/* End loading screen */
 
 body {
 background-color: rgb(26, 26, 26);
